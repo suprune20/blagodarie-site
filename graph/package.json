@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && sh ./link-public-folders-to-dist.sh",
     "preview": "vite preview"
   },
   "devDependencies": {
